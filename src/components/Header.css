@@ -1,0 +1,168 @@
+@import url('https://fonts.cdnfonts.com/css/chomsky');
+@import url('https://fonts.cdnfonts.com/css/chunkfive');
+
+.date {
+  position: relative;
+  margin-right: 1vh;
+  font-family: 'ChunkFive', sans-serif;
+}
+
+/* General Styles */
+body.paper-theme {
+  background:#ffff;
+  color: #3e3d3c;
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+}
+body.light-theme {
+  background:#cfcece;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  color: #333232;
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styling */
+.paper-navbar {
+  background: #EBCFBB;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid #000000;
+  border-radius: 10px;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Heading */
+.paper-heading {
+  font-size: 45px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #5a4a42;
+  text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-left: 50vh;
+  font-family: 'Chomsky', sans-serif;
+}
+
+/* Navigation */
+.paper-nav {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.paper-nav a {
+  text-decoration: none;
+  color: #5a4a42;
+  font-size: 18px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  transition: background 0.3s ease-in-out;
+}
+
+.paper-nav li {
+  margin-left: 0.02vh;
+}
+
+.paper-nav a:hover {
+  background: #F07654;
+}
+
+/* Dropdowns */
+.paper-dropdown {
+  display: none;
+  position: absolute;
+  background: #fdfbf7;
+  border: 1px solid #d3c6b1;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  list-style: none;
+  min-width: 150px;
+}
+
+.show-dropdown {
+  display: block;
+}
+
+.paper-dropdown li {
+  padding: 8px 12px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.paper-dropdown li:hover {
+  background: #eae1cf;
+}
+
+/* 🌍 RESPONSIVE DESIGN */
+
+/* 📱 Mobile */
+@media (max-width: 768px) {
+  .date {
+    font-size: 18px;
+  }
+  .paper-heading {
+    margin: auto;
+  }
+  .paper-navbar {
+    border: none;
+    box-shadow: none;
+  }
+  .menu-icon {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .paper-nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 10vh;
+    right: 0;
+    width: 100%;
+    background: #fdfbf7;
+    padding: 2.5vh;
+    border-radius: 5%;
+  }
+  .paper-nav.active {
+    display: flex;
+  }
+}
+
+/* 📲 Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .paper-navbar {
+    padding: 0px 5px;
+  }
+  .paper-heading {
+    font-size: 25px;
+    margin-left:-17vh;
+  }
+}
+
+/* 🖥️ Desktop */
+@media (min-width: 1025px) {
+  .menu-icon {
+    display: none;
+  }
+}
+
+/* Theme Toggle */
+.paper-button {
+  background: #F07654;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
