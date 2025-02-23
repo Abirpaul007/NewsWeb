@@ -1,7 +1,7 @@
 # NewsWebSite
 It is a News Web Page.
 
-<img align='right' src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3RpaG4xbjJ6bnE5OHJ3ZTV6M2EzdzRkdG9jYXFtY2dhbW02enhsNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OmYPT9lCGzfoDXganP/giphy.gif" width="230">
+<img align='right' src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY291MW56Mm1ia2htem56Z3R3bTg4a2YwM3A4anhuNHQyNTZnbjEzaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WGOJW5nyCY1pnvZcAs/giphy.gif" width="230">
 
 ## 🙏, I'm Abir Paul 
 ## Quiz App 👨‍💻
@@ -34,7 +34,11 @@ const Newsapp = {
    ```bash
    git clone https://github.com/Abirpaul007/NewsWeb.git
 ```
+**Install dependencies:**
 
+  ```bash
+npm install
+```
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
