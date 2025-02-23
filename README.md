@@ -4,7 +4,7 @@ It is a News Web Page.
 <img align='right' src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExY291MW56Mm1ia2htem56Z3R3bTg4a2YwM3A4anhuNHQyNTZnbjEzaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WGOJW5nyCY1pnvZcAs/giphy.gif" width="230">
 
 ## 🙏, I'm Abir Paul 
-## Quiz App 👨‍💻
+## News Aggregator App 👨‍💻
 
 
 [![](https://img.shields.io/badge/Gmail-contactabirpaul%40gmail.com-red)](mailto:contactabirpaul@gmail.com)
@@ -29,6 +29,7 @@ const Newsapp = {
 ✅ **Search Functionality** – Instantly find articles on topics you care about  
 ✅ **Responsive UI** – Smooth browsing on mobile & desktop  
 ✅ **Fast & Optimized** – Built with React for a seamless experience  
+✅ **Modes** – 2 modes are there and a default mode is there based on your mobile theme (use light theme for best experience) 
 
 
 ##**After opning the website select the topic from the menu**
