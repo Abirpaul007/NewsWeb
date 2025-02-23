@@ -30,6 +30,10 @@ const Newsapp = {
 ✅ **Responsive UI** – Smooth browsing on mobile & desktop  
 ✅ **Fast & Optimized** – Built with React for a seamless experience  
 
+
+##**After opning the website select the topic from the menu**
+
+  
 **Clone the repository:**  
    ```bash
    git clone https://github.com/Abirpaul007/NewsWeb.git
