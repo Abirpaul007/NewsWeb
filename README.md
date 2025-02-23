@@ -1,3 +1,40 @@
+# NewsWebSite
+It is a News Web Page.
+
+<img align='right' src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3RpaG4xbjJ6bnE5OHJ3ZTV6M2EzdzRkdG9jYXFtY2dhbW02enhsNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OmYPT9lCGzfoDXganP/giphy.gif" width="230">
+
+## 🙏, I'm Abir Paul 
+## Quiz App 👨‍💻
+
+
+[![](https://img.shields.io/badge/Gmail-abirpaulbkp%40gmail.com-red)](mailto:abirpaulbkp@gmail.com)
+
+
+### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about this...  
+
+```javascript
+const Newsapp = {
+   
+    News: ["From every topics"],
+    Frontend:" React.js"," Bootstrap ", 
+    API Integration: "News API (e.g., NewsAPI.org)",
+    State Management:" React Hooks " ,
+    Styling: "CSS", "Bootstrap"  
+}
+```
+## 🚀 Features  
+
+✅ **Real-time News** – Fetches the latest updates from trusted sources  
+✅ **Category Filters** – Browse news by Technology, Sports, Business, and more  
+✅ **Search Functionality** – Instantly find articles on topics you care about  
+✅ **Responsive UI** – Smooth browsing on mobile & desktop  
+✅ **Fast & Optimized** – Built with React for a seamless experience  
+
+**Clone the repository:**  
+   ```bash
+   git clone https://github.com/Abirpaul007/NewsWeb.git
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
