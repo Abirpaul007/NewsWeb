@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NewsWeb/static/css/main.c0f3804f.css",
+    "main.js": "/NewsWeb/static/js/main.80c4fc7b.js",
+    "index.html": "/NewsWeb/index.html",
+    "main.c0f3804f.css.map": "/NewsWeb/static/css/main.c0f3804f.css.map",
+    "main.80c4fc7b.js.map": "/NewsWeb/static/js/main.80c4fc7b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0f3804f.css",
+    "static/js/main.80c4fc7b.js"
+  ]
+}
